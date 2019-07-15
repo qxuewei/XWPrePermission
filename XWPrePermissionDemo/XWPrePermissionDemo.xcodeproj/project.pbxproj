@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6AA7FB122DC3F8D00158025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA7FB022DC3F8D00158025 /* AppDelegate.m */; };
+		B6AA7FB422DC3F8D00158025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA7FB322DC3F8D00158025 /* ViewController.m */; };
+		B6AA7FB722DC3F8D00158025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA7FB522DC3F8D00158025 /* Main.storyboard */; };
+		B6AA7FB922DC3F8F00158025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AA7FB822DC3F8F00158025 /* Assets.xcassets */; };
+		B6AA7FBC22DC3F8F00158025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA7FBA22DC3F8F00158025 /* LaunchScreen.storyboard */; };
+		B6AA7FBF22DC3F8F00158025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA7FBE22DC3F8F00158025 /* main.m */; };
+		B6AA800B22DC5BCD00158025 /* XWPrePermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA800122DC5BCD00158025 /* XWPrePermissionMicrophone.m */; };
+		B6AA800C22DC5BCD00158025 /* XWPrePermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA800222DC5BCD00158025 /* XWPrePermissionSetting.m */; };
+		B6AA800D22DC5BCD00158025 /* XWPrePermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA800322DC5BCD00158025 /* XWPrePermissionCamera.m */; };
+		B6AA800E22DC5BCD00158025 /* XWPrePermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA800422DC5BCD00158025 /* XWPrePermissionLocation.m */; };
+		B6AA800F22DC5BCD00158025 /* XWPrePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA800722DC5BCD00158025 /* XWPrePermission.m */; };
+		B6AA801022DC5BCD00158025 /* XWPrePermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA800822DC5BCD00158025 /* XWPrePermissionPhotos.m */; };
+		B6AA801422DC5EA400158025 /* XWPrePermission.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B6AA801322DC5EA400158025 /* XWPrePermission.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6AA7FAC22DC3F8D00158025 /* XWPrePermissionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWPrePermissionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AA7FAF22DC3F8D00158025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6AA7FB022DC3F8D00158025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6AA7FB222DC3F8D00158025 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6AA7FB322DC3F8D00158025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6AA7FB622DC3F8D00158025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6AA7FB822DC3F8F00158025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6AA7FBB22DC3F8F00158025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6AA7FBD22DC3F8F00158025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AA7FBE22DC3F8F00158025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6AA7FFF22DC5BCD00158025 /* XWPrePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWPrePermission.h; sourceTree = "<group>"; };
+		B6AA800022DC5BCD00158025 /* XWPrePermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWPrePermissionPhotos.h; sourceTree = "<group>"; };
+		B6AA800122DC5BCD00158025 /* XWPrePermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWPrePermissionMicrophone.m; sourceTree = "<group>"; };
+		B6AA800222DC5BCD00158025 /* XWPrePermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWPrePermissionSetting.m; sourceTree = "<group>"; };
+		B6AA800322DC5BCD00158025 /* XWPrePermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWPrePermissionCamera.m; sourceTree = "<group>"; };
+		B6AA800422DC5BCD00158025 /* XWPrePermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWPrePermissionLocation.m; sourceTree = "<group>"; };
+		B6AA800522DC5BCD00158025 /* XWPrePermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWPrePermissionSetting.h; sourceTree = "<group>"; };
+		B6AA800622DC5BCD00158025 /* XWPrePermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWPrePermissionMicrophone.h; sourceTree = "<group>"; };
+		B6AA800722DC5BCD00158025 /* XWPrePermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWPrePermission.m; sourceTree = "<group>"; };
+		B6AA800822DC5BCD00158025 /* XWPrePermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWPrePermissionPhotos.m; sourceTree = "<group>"; };
+		B6AA800922DC5BCD00158025 /* XWPrePermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWPrePermissionCamera.h; sourceTree = "<group>"; };
+		B6AA800A22DC5BCD00158025 /* XWPrePermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWPrePermissionLocation.h; sourceTree = "<group>"; };
+		B6AA801322DC5EA400158025 /* XWPrePermission.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = XWPrePermission.podspec; path = ../XWPrePermission.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AA7FA922DC3F8D00158025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6AA7FA322DC3F8D00158025 = {
+			isa = PBXGroup;
+			children = (
+				B6AA801322DC5EA400158025 /* XWPrePermission.podspec */,
+				B6AA7FAE22DC3F8D00158025 /* XWPrePermissionDemo */,
+				B6AA7FAD22DC3F8D00158025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AA7FAD22DC3F8D00158025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA7FAC22DC3F8D00158025 /* XWPrePermissionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AA7FAE22DC3F8D00158025 /* XWPrePermissionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA7FFE22DC5BCD00158025 /* XWPrePermissions */,
+				B6AA7FAF22DC3F8D00158025 /* AppDelegate.h */,
+				B6AA7FB022DC3F8D00158025 /* AppDelegate.m */,
+				B6AA7FB222DC3F8D00158025 /* ViewController.h */,
+				B6AA7FB322DC3F8D00158025 /* ViewController.m */,
+				B6AA7FB522DC3F8D00158025 /* Main.storyboard */,
+				B6AA7FB822DC3F8F00158025 /* Assets.xcassets */,
+				B6AA7FBA22DC3F8F00158025 /* LaunchScreen.storyboard */,
+				B6AA7FBD22DC3F8F00158025 /* Info.plist */,
+				B6AA7FBE22DC3F8F00158025 /* main.m */,
+			);
+			path = XWPrePermissionDemo;
+			sourceTree = "<group>";
+		};
+		B6AA7FFE22DC5BCD00158025 /* XWPrePermissions */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA7FFF22DC5BCD00158025 /* XWPrePermission.h */,
+				B6AA800722DC5BCD00158025 /* XWPrePermission.m */,
+				B6AA800922DC5BCD00158025 /* XWPrePermissionCamera.h */,
+				B6AA800322DC5BCD00158025 /* XWPrePermissionCamera.m */,
+				B6AA800A22DC5BCD00158025 /* XWPrePermissionLocation.h */,
+				B6AA800422DC5BCD00158025 /* XWPrePermissionLocation.m */,
+				B6AA800622DC5BCD00158025 /* XWPrePermissionMicrophone.h */,
+				B6AA800122DC5BCD00158025 /* XWPrePermissionMicrophone.m */,
+				B6AA800022DC5BCD00158025 /* XWPrePermissionPhotos.h */,
+				B6AA800822DC5BCD00158025 /* XWPrePermissionPhotos.m */,
+				B6AA800522DC5BCD00158025 /* XWPrePermissionSetting.h */,
+				B6AA800222DC5BCD00158025 /* XWPrePermissionSetting.m */,
+			);
+			name = XWPrePermissions;
+			path = ../../XWPrePermissions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AA7FAB22DC3F8D00158025 /* XWPrePermissionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AA7FC222DC3F8F00158025 /* Build configuration list for PBXNativeTarget "XWPrePermissionDemo" */;
+			buildPhases = (
+				B6AA7FA822DC3F8D00158025 /* Sources */,
+				B6AA7FA922DC3F8D00158025 /* Frameworks */,
+				B6AA7FAA22DC3F8D00158025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWPrePermissionDemo;
+			productName = XWPrePermissionDemo;
+			productReference = B6AA7FAC22DC3F8D00158025 /* XWPrePermissionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AA7FA422DC3F8D00158025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "邱学伟";
+				TargetAttributes = {
+					B6AA7FAB22DC3F8D00158025 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B6AA7FA722DC3F8D00158025 /* Build configuration list for PBXProject "XWPrePermissionDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6AA7FA322DC3F8D00158025;
+			productRefGroup = B6AA7FAD22DC3F8D00158025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AA7FAB22DC3F8D00158025 /* XWPrePermissionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AA7FAA22DC3F8D00158025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AA7FBC22DC3F8F00158025 /* LaunchScreen.storyboard in Resources */,
+				B6AA7FB922DC3F8F00158025 /* Assets.xcassets in Resources */,
+				B6AA801422DC5EA400158025 /* XWPrePermission.podspec in Resources */,
+				B6AA7FB722DC3F8D00158025 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AA7FA822DC3F8D00158025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AA801022DC5BCD00158025 /* XWPrePermissionPhotos.m in Sources */,
+				B6AA800D22DC5BCD00158025 /* XWPrePermissionCamera.m in Sources */,
+				B6AA7FB422DC3F8D00158025 /* ViewController.m in Sources */,
+				B6AA800B22DC5BCD00158025 /* XWPrePermissionMicrophone.m in Sources */,
+				B6AA800F22DC5BCD00158025 /* XWPrePermission.m in Sources */,
+				B6AA800C22DC5BCD00158025 /* XWPrePermissionSetting.m in Sources */,
+				B6AA7FBF22DC3F8F00158025 /* main.m in Sources */,
+				B6AA800E22DC5BCD00158025 /* XWPrePermissionLocation.m in Sources */,
+				B6AA7FB122DC3F8D00158025 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6AA7FB522DC3F8D00158025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AA7FB622DC3F8D00158025 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6AA7FBA22DC3F8F00158025 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AA7FBB22DC3F8F00158025 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6AA7FC022DC3F8F00158025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6AA7FC122DC3F8F00158025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AA7FC322DC3F8F00158025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN5GPLJK9D;
+				INFOPLIST_FILE = XWPrePermissionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuxuewei.XWPrePermissionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6AA7FC422DC3F8F00158025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN5GPLJK9D;
+				INFOPLIST_FILE = XWPrePermissionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuxuewei.XWPrePermissionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AA7FA722DC3F8D00158025 /* Build configuration list for PBXProject "XWPrePermissionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AA7FC022DC3F8F00158025 /* Debug */,
+				B6AA7FC122DC3F8F00158025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AA7FC222DC3F8F00158025 /* Build configuration list for PBXNativeTarget "XWPrePermissionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AA7FC322DC3F8F00158025 /* Debug */,
+				B6AA7FC422DC3F8F00158025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6AA7FA422DC3F8D00158025 /* Project object */;
+}
